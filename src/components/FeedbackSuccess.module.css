@@ -11,8 +11,9 @@
     background-color: var(--white);
 
     @media(max-width: 768px){
+        padding: 2rem;
         height: 100vh;
-        border-radius: none;
+        border-radius: 0;
     }
 }
 .FeedbackSuccessImg{
