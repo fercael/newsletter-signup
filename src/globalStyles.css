@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Roboto';
-  src: local('Roboto-Regular') url('./assets/fonts/Roboto-Regular.ttf') format('.ttf');
+  src: local('Roboto-Regular'), url('./assets/fonts/Roboto-Regular.ttf') format('.ttf');
 }
 @font-face {
   font-family: 'Roboto';
-  src: local('Roboto-Bold') url('./assets/fonts/Roboto-Bold.ttf') format('.ttf');
+  src: local('Roboto-Bold'), url('./assets/fonts/Roboto-Bold.ttf') format('.ttf');
 }
 
 *{
@@ -16,6 +16,7 @@
 :root {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-weight: 400;
 
   width: 100vw;
   height: 100vh;
