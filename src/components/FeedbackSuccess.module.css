@@ -9,6 +9,11 @@
     border-radius: 25px;
 
     background-color: var(--white);
+
+    @media(max-width: 768px){
+        height: 100vh;
+        border-radius: none;
+    }
 }
 .FeedbackSuccessImg{
     max-width: 3.5rem;
@@ -31,6 +36,10 @@
     font-family: 'Roboto', sans-serif;
     color: var(--white);
     background-color: var(--dark-grey);
+
+    @media(max-width: 768px){
+        margin-top: auto;
+    }
 }
 .FeedbackSuccessButton:hover{
     cursor: pointer;
