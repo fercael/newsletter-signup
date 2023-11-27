@@ -9,8 +9,8 @@ function NewsletterForm() {
         <section className={styles.NewsletterFormSection}>
             <picture className={styles.NewsletterFormPicture}>
                 <source srcSet={illustrationMobile} media="(max-width: 768px)" />
-                <source srcSet={illustrationDesktop} />
-                <img src={illustrationDesktop} type="svg" />
+                <source  srcSet={illustrationDesktop} />
+                <img className={styles.NewsletterFormImg} src={illustrationDesktop} type="svg" />
             </picture>
             <header className={styles.NewsletterFormHeader}>
                 <h1 className={styles.NewsletterFormH1}>Stay updated!</h1>
