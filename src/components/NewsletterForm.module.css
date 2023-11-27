@@ -1,0 +1,96 @@
+.NewsletterFormSection{
+    width: auto;
+    max-width: 1440px;
+
+    padding: 2rem;
+
+    border-radius: 25px;
+    overflow: hidden;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas: 
+        "HEADER HEADER IMAGE IMAGE"
+        "HEADER HEADER IMAGE IMAGE"
+        "FORM FORM IMAGE IMAGE"
+    ;
+    background-color: var(--white);
+}
+
+.NewsletterFormHeader{
+    grid-area: HEADER;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.NewsletterFormPicture{
+    grid-area: IMAGE;
+
+    justify-self: flex-end;
+}
+.NewsletterFormForm{
+    grid-area: FORM;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.NewsletterFormH1{
+    font-size: 3rem;
+    color: var(--dark-grey);
+}
+.NewsletterFormP{
+    color: var(--dark-grey);
+}
+.NewsletterFormUl{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    list-style-position: inside;
+    list-style-type: none;
+
+    color: var(--dark-grey);
+}
+.NewsletterFormLi{
+    display: flex;
+    gap: 1rem;
+}
+.NewsletterFormLabel{
+    font-weight: 700;
+    margin-bottom: -0.5rem;
+}
+.NewsletterFormInput{
+    font-size: 1rem;
+    color: var(--dark-grey);
+
+    padding: 1rem;
+    border: 2px solid var(--grey);
+    border-radius: 8px;
+}
+.NewsletterFormInput::placeholder{
+    font-size: 1rem;
+    color: var(--grey)
+}
+.NewsletterFormInput:focus{
+    outline: none;
+}
+.NewsletterFormButton{
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+
+    background-color: var(--dark-grey);
+    color: var(--white);
+}
+.NewsletterFormButton:hover{
+    cursor: pointer;
+    background-color: var(--tomato);
+    box-shadow: 0.5rem 0.5rem 2rem var(--tomato);
+}
+  
