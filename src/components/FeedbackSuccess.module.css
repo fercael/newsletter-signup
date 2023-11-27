@@ -1,0 +1,40 @@
+.FeedbackSuccessSection{
+    max-width: 32rem;
+    padding: 3.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    border-radius: 25px;
+
+    background-color: var(--white);
+}
+.FeedbackSuccessImg{
+    max-width: 3.5rem;
+}
+.FeedbackSuccessH1{
+    font-size: 3.5rem;
+    color: var(--dark-grey);
+}
+.FeedbackSuccessP{
+    color: var(--dark-grey);
+}
+.FeedbackSuccessButton{
+    padding: 1rem;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+    background-color: var(--dark-grey);
+}
+.FeedbackSuccessButton:hover{
+    cursor: pointer;
+
+    background-color: var(--tomato);
+    box-shadow: 0.5rem 0.5rem 2rem var(--tomato);
+}
