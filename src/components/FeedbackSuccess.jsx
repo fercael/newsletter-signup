@@ -6,7 +6,7 @@ function FeedbackSuccess(props) {
         <section 
             className={styles.FeedbackSuccessSection}
             style={{
-                display: (props.display)? "inline": "none"
+                display: (props.display)? "flex": "none"
             }}
         >
             <img className={styles.FeedbackSuccessImg} src={iconSuccess} />
