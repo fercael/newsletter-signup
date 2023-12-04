@@ -20,12 +20,11 @@ Seus usuários devem ser capazes de:
 
 ## Layout
 
-![desktop-design](./src/design/desktop-design.jpg)
-![mobile-design](./src/design/mobile-design.jpg)
+| ![desktop-design](./src/design/desktop-design.jpg) | ![mobile-design](./src/design/mobile-design.jpg) | |---|---|
 
 ## Ferramentas utilizadas
 
-**linguagens**: HTML/CSS e Javascript
+**linguagens**: HTML/CSS e Javascript  
 **frameworks**: ReactJs
 
 ## Como instalar
