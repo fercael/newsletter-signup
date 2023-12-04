@@ -20,7 +20,7 @@ Seus usuários devem ser capazes de:
 
 ## Layout
 
-<p>
+<p float="left">
     <img src="./src/design/desktop-design.jpg" width="50%" />
     <img src="./src/design/mobile-design.jpg" width="50%" />
 </p>
