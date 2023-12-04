@@ -20,8 +20,8 @@ Seus usuários devem ser capazes de:
 
 ## Layout
 
-<p display="flex" justify-content="flex-start">
-    <img src="./src/design/mobile-design.jpg" width="49%" />
+<p display="flex">
+    <img src="./src/design/mobile-design.jpg" width="49%" max-height="500px" />
     <img src="./src/design/desktop-design.jpg" width="49%" />
 </p>
 
